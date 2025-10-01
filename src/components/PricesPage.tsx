@@ -20,6 +20,30 @@ const PricesPage = ({ onSectionChange }: PricesPageProps) => {
           <p className="text-xl text-muted-foreground">Прозрачное ценообразование на всю продукцию</p>
         </div>
 
+        <div className="mb-8 grid md:grid-cols-3 gap-4">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="/img/b612ee47-5a9e-4768-aa70-cd5b28d8d7ec.jpg" 
+              alt="Облицовка фасада" 
+              className="w-full h-48 object-cover"
+            />
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="/img/d3461413-7f42-479c-af60-799fbba0320c.jpg" 
+              alt="Облицовка цоколя" 
+              className="w-full h-48 object-cover"
+            />
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="/img/774837ec-0ca5-4e86-bf16-b30451480c9f.jpg" 
+              alt="Готовый объект" 
+              className="w-full h-48 object-cover"
+            />
+          </div>
+        </div>
+
         <Card className="mb-8 border-2 border-[#F97316]">
           <CardHeader className="bg-[#333333] text-white">
             <CardTitle className="text-2xl">БАЗОВАЯ ЦЕНА</CardTitle>
