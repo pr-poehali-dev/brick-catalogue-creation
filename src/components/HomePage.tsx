@@ -143,16 +143,29 @@ const HomePage = ({ onSectionChange }: HomePageProps) => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#F1F1F1] p-8 rounded-lg" style={{
-              backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.03) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,0.03) 1px, transparent 1px)',
-              backgroundSize: '20px 20px'
-            }}>
-              <div className="bg-white p-6 rounded-lg shadow-lg">
-                <div className="text-6xl mb-4 text-center">🏗️</div>
-                <h3 className="text-2xl font-bold text-center mb-2">УНИВЕРСАЛЬНОЕ ПРИМЕНЕНИЕ</h3>
-                <p className="text-center text-muted-foreground">
-                  Идеально подходит для облицовки фасадов жилых домов, коммерческих зданий и промышленных объектов
-                </p>
+            <div className="space-y-4">
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="/img/774837ec-0ca5-4e86-bf16-b30451480c9f.jpg" 
+                  alt="Фасад дома с гибким кирпичом" 
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="rounded-lg overflow-hidden shadow-lg">
+                  <img 
+                    src="/img/b612ee47-5a9e-4768-aa70-cd5b28d8d7ec.jpg" 
+                    alt="Облицовка фасада" 
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
+                <div className="rounded-lg overflow-hidden shadow-lg">
+                  <img 
+                    src="/img/d3461413-7f42-479c-af60-799fbba0320c.jpg" 
+                    alt="Облицовка цоколя" 
+                    className="w-full h-48 object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>

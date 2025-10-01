@@ -105,6 +105,42 @@ const CatalogPage = () => {
           <p className="text-xl text-muted-foreground">Широкий ассортимент фасадного гибкого кирпича</p>
         </div>
 
+        <div className="mb-12 grid md:grid-cols-3 gap-6">
+          <div className="rounded-lg overflow-hidden shadow-xl">
+            <img 
+              src="/img/b612ee47-5a9e-4768-aa70-cd5b28d8d7ec.jpg" 
+              alt="Облицовка фасада гибким кирпичом" 
+              className="w-full h-64 object-cover"
+            />
+            <div className="bg-white p-4">
+              <h3 className="font-bold text-lg">Фасад</h3>
+              <p className="text-sm text-muted-foreground">Примеры облицовки фасадов</p>
+            </div>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-xl">
+            <img 
+              src="/img/d3461413-7f42-479c-af60-799fbba0320c.jpg" 
+              alt="Облицовка цоколя гибким кирпичом" 
+              className="w-full h-64 object-cover"
+            />
+            <div className="bg-white p-4">
+              <h3 className="font-bold text-lg">Цоколь</h3>
+              <p className="text-sm text-muted-foreground">Примеры облицовки цоколя</p>
+            </div>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-xl">
+            <img 
+              src="/img/774837ec-0ca5-4e86-bf16-b30451480c9f.jpg" 
+              alt="Готовый дом с гибким кирпичом" 
+              className="w-full h-64 object-cover"
+            />
+            <div className="bg-white p-4">
+              <h3 className="font-bold text-lg">Готовые объекты</h3>
+              <p className="text-sm text-muted-foreground">Примеры выполненных работ</p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
             <Card key={product.id} className="hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
